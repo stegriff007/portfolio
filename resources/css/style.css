@@ -7,14 +7,29 @@ html {
 .container {
 	width: 960px;
 	margin: 0 auto;
-
-
+}
+.poem {
+	margin-top: 6rem;
+	font-weight: 900;
+	opacity: 0.3;
+	color: black;
 }
 
 a {
 	text-decoration: none;
 	color: white;
 	opacity: 0.7;
+}
+
+p {
+	line-height: 2;
+	font-size: 2rem;
+	text-align: center;
+}
+
+em {
+	color: darkred;
+	opacity: 1;
 }
 
 header {
@@ -107,7 +122,7 @@ content {
 	margin-bottom: 10rem;
 }
 
-@media only screen and (max-width: 2600px) {
+@media only screen and (max-width: 470px) {
 
 	content div {
 	
