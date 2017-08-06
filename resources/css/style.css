@@ -92,12 +92,12 @@ i {
 
 content div {
 	display: flex;
-	background-color: lightgrey;
-	border: solid 1px lightgrey;
+	background-color: #D0CCD0;
+	border: solid 1rem #D0CCD0;
 	justify-content: center;
 	position: relative;
 	top: 5rem;
-	width: 22%;
+	width: 20%;
 
 }
 
@@ -124,8 +124,9 @@ content {
 
 @media only screen and (max-width: 470px) {
 
+
 	content div {
-	
+		border: solid 1rem #1C1D21;
 		width: 100%
 	}
 
