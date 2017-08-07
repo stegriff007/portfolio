@@ -5,7 +5,7 @@ html {
 }
 
 .container {
-	width: 960px;
+	width: 1260px;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -118,7 +118,7 @@ content {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	max-width: 960px;
+	max-width: 1260px;
 	height: 100%;
 	overflow: scroll;
 	margin-bottom: 2rem;
