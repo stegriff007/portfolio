@@ -134,8 +134,13 @@ content {
 	}	
 
 	header img {
-	height: 7rem;
-}
+		height: 7rem;
+		padding-left: 2rem;
+	}
+
+	header h1 {
+		font-size: 6rem;
+	}
 
 	content div {
 		border: solid 1rem #1C1D21;
