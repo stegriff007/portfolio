@@ -127,6 +127,16 @@ content {
 @media only screen and (max-width: 1080px) {
 
 
+	header {
+
+	height: 10rem;
+
+	}	
+
+	header img {
+	height: 7rem;
+}
+
 	content div {
 		border: solid 1rem #1C1D21;
 		width: 100%
