@@ -5,9 +5,8 @@ html {
 }
 
 .container {
-	width: 1366px;
+	width: 100%;
 	margin: 0 auto;
-	position: relative;
 }
 
 a {
@@ -25,14 +24,14 @@ header {
 	top: 0;
 	color: white;
 	z-index: 60;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 header div {
 	height: 8.125rem;
 	width: 12.5rem;
-	padding-left: 11.55rem;
 	display: flex;
+	justify-content: center;
 }	
 
 .logo {
@@ -47,9 +46,10 @@ header div {
 	justify-content: flex-start;
 	font-size: 1rem;
 	font-weight: 300;
-	width: 25rem;
-	padding-left: 3rem;
-	padding-top: 4rem;
+	width: auto;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	height: 4.125rem;
 }
 
 .headtext h1 {
@@ -63,6 +63,7 @@ header div {
 .headtext h2 {
 	font-weight: 800;
 }
+
 footer {
 	display: flex;
 	flex-direction: column;
@@ -76,9 +77,9 @@ footer {
 
 .social {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
+	justify-content: center;
 	font-size: 2rem;
-	padding-left: 11.55rem;
 }
 
 i {
@@ -86,64 +87,110 @@ i {
 	color: black;
 }
 
-.portfolio div {
-	display: flex;
-	position: relative;
-	width: 18%;
-	padding: .875rem;
-	position: relative;
-}
-
-.portfolio div img {
-	display: flex;
-	position: relative;
-	background-size: cover;
-	background-color: #D0CCD0;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 100%;
-	width: 100%;
-	opacity: .2;
-	justify-content: center;
-	align-items: center;
-}
-
-.portfolio div img:hover {
+.project_pic:hover {
 	opacity: 1;
 }
 
 .portfolio {
 	display: flex;
-	justify-content: center;
-	position: relative;
 	flex-wrap: wrap;
+	width: 80%;
+	height: 40rem;
+	margin: 0 auto;
 	margin-top: 9.125rem;
 	margin-bottom: 5.25rem;
 	overflow: scroll;
 }
 
-.top {
-	display: flex;
-	position: absolute;
-	flex-direction: column;
-	z-index: 30;
-}
+/*Projects Code*/
+
+
 .comingsoon {
 	background-color: #F65C04;
-	position: absolute;
 	color: white;
-	width: 60%;
-	justify-content: center;
-	z-index: 40;
+	margin-top: 1rem;
+	padding: .2rem;
+	width: 70%;
+	text-align: center;
 }
 
 .title {
 	background-color: #1C1D21;
-	position: absolute;
+	border: solid 1px #1C1D21;
 	color: white;
-	width: 60%;
-	justify-content: center;
-	z-index: 50;
+	padding: 1rem;
+	margin-top: 2rem;
+	width: 70%;
+	text-align: center;
+}
+
+.title:hover {
+	border: solid 1px #FFCC00;
+	color: #FFCC00;
+}
+
+/*Project Background Images*/
+
+.project_pic {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 24%;
+	height: auto;
+	opacity: .7;
+	margin: .1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#one {
+	background-color: #D0CCD0;
+}
+
+#two {
+	background-color: #D0CCD0;
+}
+
+#three {
+	background-image: url("../images/construct.png");
+}
+
+#four {
+	background-image: url("../images/colmar.png");
+}
+
+#five {
+	background-image: url("../images/foto.png");
+}
+
+#six {
+	background-image: url("../images/tshell.png");
+}
+
+#seven {
+	background-image: url("../images/agent.png");
+}
+
+#eight {
+	background-image: url("../images/dasmato.png");
+}
+#nine {
+	background-image: url("../images/teacozy.png");
+}
+
+#ten {
+	background-image: url("../images/myt.png");
+}
+
+#eleven {
+	background-image: url("../images/broadway.png");
+}
+
+#twelve {
+	background-image: url("../images/excursion.png");
 }
 
 	/* {
