@@ -116,7 +116,7 @@ i {
 
 .title {
 	background-color: #1C1D21;
-	border: solid 1px #1C1D21;
+	border: solid .25px #1C1D21;
 	color: white;
 	padding: 1rem;
 	margin-top: 2rem;
@@ -125,8 +125,9 @@ i {
 }
 
 .title:hover {
-	border: solid 1px #FFCC00;
+	border: solid .25px #FFCC00;
 	color: #FFCC00;
+	box-shadow: 1px 1px 1px #000;
 }
 
 /*Project Background Images*/
@@ -191,6 +192,31 @@ i {
 
 #twelve {
 	background-image: url("../images/excursion.png");
+}
+
+.fa-instagram:hover {
+	color: #A92EB2;
+}
+
+.fa-linkedin-square:hover {
+	color: #0077B5;
+}
+
+.fa-behance:hover {
+	color: #1769ff;
+}
+
+@media only screen and (max-width:750px) {
+	.project_pic {
+		width: 100%;
+	}
+
+	.headtext {
+	display: none;
+}
+
+	.title {
+	margin-top: .5rem;
 }
 
 	/* {
